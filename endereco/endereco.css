@@ -1,0 +1,70 @@
+body{
+    margin: 0px;
+    font-size: 23px;
+    background-image: url("../imagens/index/backgroundcontinuo.jpeg.jpg");
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#cabecalho{
+    background-color: #23862b;
+    height: 200px;
+    text-align: center;
+    display: block;
+    font-family: "Courier New", monospace;
+}
+
+#imagem-cabecalho{
+    width: 230px;
+    margin: 10px;
+}
+
+.link{
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color: #1eb82a;
+}
+
+a:active{
+    background-color: #23862b;
+}
+
+.sem-efeito:hover{
+    background: none;
+}
+
+#corpo{
+    margin-top: 30px;
+}
+
+#conteudo{
+    width: 1500px;
+    height: auto;
+    background-color: #0b7012;
+    position: relative;
+    left: 160px;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+#tabela{
+    border-color: #00fd11 #1eb82a;
+    width: 600px;
+    margin: 0px 450px;
+}
+
+.dados{
+    padding: 10px 5px;
+}
+
+#direitos{
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #024607;
+} 
